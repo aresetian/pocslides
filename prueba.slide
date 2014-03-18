@@ -1,0 +1,40 @@
+Como armar una presentacion con Go
+
+Gabriel Pozo
+Programador
+http://aprendiendodeandroidymas.com/
+@jackgris2
+http://golang.org
+
+* Este es un nuevo slide
+
+Y esto es texto en el nuevo slide
+
+* Si no colocamos texto en el slide 
+
+* Correr codigo
+
+Con esto vamos a poder correr codigo Go en el mismo slide
+
+.play go1.1/intdiv.go /func f/,/}/
+
+* Mostrar codigo
+
+Vamos a poder mostrar porciones de codigo para que se vean diferente al texto, y como podemos ver, podemos decir que muestre solo una u otra funcion de nuestro codigo ;)
+
+.code go1.1/return-old.go /func slurp/,/^}/
+
+.code go1.1/return-old.go /func min/,/^}/
+
+* Cargar imagenes en la presentacion
+
+Podemos crear enlaces [[go1.1/blockprofile.svg][Texto que se ve]].
+Como tambien mostrar las imagenes que tengamos guardadas
+
+.image go1.1/blockprofile.png
+
+* Donde coloco los archivos que queremos mostrar?
+
+Simplemente con crear una carpeta que contenga lo que queremos mostrar y lo coloquemos en el mismo directorio donde esta nuestro archivo .slide
+
+Por los enlaces, en este caso pueden ver que tome y modifique la presentacion del año 2013 que escribio Andrew Gerrand llamada What's new in Go 1.1 y que se encuentra en el codigo fuente
